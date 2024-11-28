@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potofolio Tailwind</title>
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-4">
+          <a href="#home" class="font-bold text-lg text-primary block py-6">~>Teguh</a>
+        </div>
+        <!-- Hamburger -->
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out  origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out  origin-bottom-left"></span>
+          </button>
+
+          <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+              </li>
+              <li class="group">
+                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+              </li>
+              <li class="group">
+                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+              </li>
+              <li class="group">
+                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+              </li>
+              <li class="group">
+                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Hero Section Start -->
+  <section id="home" class="pt-36">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full self-center px-4 lg:w-1/2">
+          <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋, saya <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Teguh Rizqi Mauludin</span></h1>
+          <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Web Developer</h2>
+          <p class="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, <span class="text-dark font-bold">quibusdam.</span></p>
+          <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+        </div>
+
+        <!-- Foto -->
+        <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="mt-10 relative lg:mt-9 lg:right-0">
+            <img src="img/pas-foto.png" alt="foto" class="max-w-full mx-auto" />
+            <!-- BlobMaker -->
+            <span class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+              <svg width="400" height="350" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#14b8a6" d="M27.4,-41.2C40.3,-39.9,58.8,-42.3,57.9,-36.1C57,-29.8,36.6,-14.9,34.4,-1.3C32.2,12.4,48.3,24.8,47.8,28.5C47.3,32.3,30.1,27.4,19.4,28.3C8.7,29.2,4.3,35.9,-3.9,42.7C-12.2,49.5,-24.4,56.4,-27.6,51.2C-30.9,46,-25.3,28.7,-29.1,18.1C-33,7.6,-46.2,3.8,-49.1,-1.7C-52.1,-7.2,-44.8,-14.4,-37,-18.1C-29.3,-21.8,-21.1,-22,-14.8,-27.1C-8.6,-32.2,-4.3,-42.2,1.5,-44.8C7.2,-47.3,14.4,-42.4,27.4,-41.2Z" transform="translate(100 100) scale(1.6)" />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Start -->
+  <section id="about" class="pt-36 pb-32">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-10 lg:w-1/2">
+          <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+          <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Belajar Programing</h2>
+          <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti animi vel delectus veritatis, temporibus voluptatem repellendus.
+          </p>
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+          <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+          <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquam, deserunt dolorum in eum quisquam unde!
+          </p>
+          <!-- Icons Medsos -->
+          <div class="flex items-center">
+            <!-- Icon Youtube -->
+            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </a>
+
+            <!-- Icon Instagram -->
+            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+
+            <!-- Icon x -->
+            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
+            </a>
+
+            <!-- Icon Tictok -->
+            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+            </a>
+
+            <!-- Icon Linkin -->
+            <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Portofilio Start -->
+  <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Portofilio</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl">Project Terbaru</h2>
+          <p class="font-medium text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magnam aliquid aliquam voluptates maiores dolore! Natus aspernatur earum dolores est.</p>
+        </div>
+      </div>
+
+      <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded shadow-md overflow-hidden">
+            <img src="img/portofolio/1.png" width="w-full">
+          </div>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Web Loker</h3>
+          <p class="font-medium text-base text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, consequuntur officiis. Quisquam ut ullam cupiditate!</p>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded shadow-md overflow-hidden">
+            <img src="img/portofolio/2.png" width="w-full">
+          </div>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Web Loker 2</h3>
+          <p class="font-medium text-base text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, consequuntur officiis. Quisquam ut ullam cupiditate!</p>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded shadow-md overflow-hidden">
+            <img src="img/portofolio/3.png" width="w-full">
+          </div>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Dashboard</h3>
+          <p class="font-medium text-base text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, consequuntur officiis. Quisquam ut ullam cupiditate!</p>
+        </div>
+        <div class="mb-12 p-4 md:w-1/2">
+          <div class="rounded shadow-md overflow-hidden">
+            <img src="img/portofolio/4.png" width="w-full">
+          </div>
+          <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Dashboard 2</h3>
+          <p class="font-medium text-base text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, consequuntur officiis. Quisquam ut ullam cupiditate!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portofilio End -->
+
+  <!-- Clients Start -->
+  <section id="clients" class="pt-36 pb-32 bg-slate-700">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+          <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl md:text-5xl">Yang Pernah Bekerjasama</h2>
+          <p class="font-medium text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magnam aliquid aliquam voluptates maiores dolore! Natus aspernatur earum dolores est.</p>
+        </div>
+      </div>
+
+      <div class="w-full px-4">
+        <div class="flex flex-wrap items-center justify-center">
+          <a href="#" class="max-w-[120px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+            <img src="img/clients/google.svg" alt="">
+          </a>
+          <a href="#" class="max-w-[120px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+            <img src="img/clients/amazon.svg" alt="">
+          </a>
+          <a href="#" class="max-w-[120px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+            <img src="img/clients/ebay.svg" alt="">
+          </a>
+          <a href="#" class="max-w-[120px] grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+            <img src="img/clients/microsoft.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Clients End -->
+
+  <!-- Blog Section start -->
+  <section id="blog" class="pt-36 pb-32 bg-slate-100">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl">Tulisan Terkini</h2>
+          <p class="font-medium text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestiae officia quo nobis! ipsum dolor sit amet consectetur adipisicing elit. Asperiores, magnam aliquid aliquam voluptates maiores dolore! Natus aspernatur earum dolores est.</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="https://picsum.photos/360/200" class="w-full">
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Belajar Programing</a>
+              </h3>
+              <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, incidunt?</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="https://picsum.photos/360/200" class="w-full">
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Belajar Programing</a>
+              </h3>
+              <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, incidunt?</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+            <img src="https://picsum.photos/360/200" class="w-full">
+            <div class="py-8 px-6">
+              <h3>
+                <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Belajar Programing</a>
+              </h3>
+              <p class="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, incidunt?</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- Blog Section end -->
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="pt-36 pb-32">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl">Hubungi Kami</h2>
+          <p class="font-medium text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, quis?</p>
+        </div>
+      </div>
+
+      <form>
+        <div class="w-full lg:w-2/3 lg:mx-auto">
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base font-bold text-primary">Name</label>
+            <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base font-bold text-primary">Email</label>
+            <input type="text" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="pesan" class="text-base font-bold text-primary">Pesan</label>
+            <textarea type="text" id="pesan" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32">
+            </textarea>
+          </div>
+          <div class="w-full px-4">
+            <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Start -->
+  <footer class="bg-dark pt-24 pb-12">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <h2 class="font-bold text-4xl text-white mb-5">Teguh</h2>
+          <h3 class="font-bold tetx-2xl mb-2">Hubungi Kami</h3>
+          <p>ini alamat</p>
+          <p>Lamongan</p>
+        </div>
+        <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <h3 class="font-semibold tetx-xl text-white mb-5">Kategori Tulisan</h3>
+          <ul class="text-slate-300">
+            <li>
+              <a href="#" class="inline-block text-base hover:text-primary mb-3">Programing</a>
+            </li>
+            <li>
+              <a href="#" class="inline-block text-base hover:text-primary mb-3">Teknologi</a>
+            </li>
+            <li>
+              <a href="#" class="inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+          <h3 class="font-semibold tetx-xl text-white mb-5">Tautan</h3>
+          <ul class="text-slate-300">
+            <li>
+              <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+            </li>
+            <li>
+              <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+            </li>
+            <li>
+              <a href="#portofolio" class="inline-block text-base hover:text-primary mb-3">Portofilio</a>
+            </li>
+            <li>
+              <a href="#clients" class="inline-block text-base hover:text-primary mb-3">Clients</a>
+            </li>
+            <li>
+              <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+            </li>
+            <li>
+              <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-full pt-10 border-t border-slate-700">
+        <div class="flex items-center justify-center mb-5">
+          <!-- Icon Youtube -->
+          <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+          </a>
+
+          <!-- Icon Instagram -->
+          <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          </a>
+
+          <!-- Icon x -->
+          <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
+          </a>
+
+          <!-- Icon Tictok -->
+          <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+          </a>
+
+          <!-- Icon Linkin -->
+          <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+          </a>
+        </div>
+        <p class="font-medium text-sm text-slate-500 text-center">Dibuat Oleh <span class="font-semibold text-primary">Teguh</span> Menggunakan <span class="font-semibold text-primary">Tailwind CSS</span></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <script src="src/script.js"></script>
+</body>
+</html>
